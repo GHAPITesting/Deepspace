@@ -46,6 +46,7 @@ public class ImageServiceTest {
 
     private ImageService underTest;
 
+
     @Before
     public void setUp() {
         this.underTest = new ImageService();
