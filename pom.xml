@@ -6,6 +6,7 @@
   <packaging>war</packaging>
   <version>1.0</version>
   <name>Deep Space</name>
+
   <url>http://java.visualstudio.com</url>
 
   <properties>
