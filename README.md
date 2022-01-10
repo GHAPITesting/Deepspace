@@ -2,4 +2,7 @@
 
 Sample web application written in Java and uses AngularJS.
 
-Changes from Remote Repository
+Changes from Remote Repository and more
+
+
+Readme updates
