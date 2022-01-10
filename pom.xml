@@ -8,9 +8,6 @@
   <name>Deep Space</name>
 
   <url>http://java.visualstudio.com</url>
-  
-  
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.report.sourceEncoding>UTF-8</project.report.sourceEncoding>
