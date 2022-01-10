@@ -2,4 +2,4 @@
 
 Sample web application written in Java and uses AngularJS.
 
-Changes from Local
+Changes from Remote
