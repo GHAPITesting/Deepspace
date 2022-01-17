@@ -6,4 +6,6 @@ Changes from Remote Repository and more changes
 
 New Changes
 
-New Changes fromm Remote
+New Changes from Remote
+
+More changes from remote
