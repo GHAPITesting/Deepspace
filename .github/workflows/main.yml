@@ -43,7 +43,7 @@ jobs:
  test-job:
   
    needs: build
-   if: ${{needs.build.result == failure}}
+   if: failure()
    runs-on: ubuntu-latest
    
    steps:
