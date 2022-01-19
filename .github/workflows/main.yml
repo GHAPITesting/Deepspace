@@ -39,3 +39,14 @@ jobs:
       with:
        app-name: ${{ env.AZURE_WEBAPP_NAME }}
        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/target/deepspace.war
+ 
+ test-job:
+  
+   needs: build
+   if: ${{needs.build.result == 'failure'}}
+   runs-on: ubuntu-latest
+   
+   steps:
+    
+    - name: Sample
+      run : echo "New Step"
