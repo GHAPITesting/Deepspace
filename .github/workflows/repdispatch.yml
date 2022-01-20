@@ -1,0 +1,19 @@
+name: PR Checks on PR Comment
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs: 
+  do-stuff-when-pr-commented:        
+    if: ${{ github.event.issue.pull_request }}
+    name: Run this only when PR is commented
+    runs-on: ubuntu-latest
+    steps:
+     
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.PAT }}
+          event-type: my-event
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "test": "test message"}'
