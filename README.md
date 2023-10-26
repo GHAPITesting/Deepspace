@@ -6,5 +6,9 @@ Changes from Remote Repository and more changes
 
 New Changes
 
+
+New Changes Applied
+
 New Changes fromm Remote
 dfg
+
